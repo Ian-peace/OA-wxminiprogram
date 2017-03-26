@@ -1,0 +1,32 @@
+<!--page/one/index.wxml-->
+<view class="page">
+<!--侧边栏-->
+    <view class="sideslip">
+        <view class="sideslip-content">
+            <view class = "logo-1">
+                <image src="../../images/刀剑神域01.jpeg"></image>
+            </view>
+            <view  class="content">
+                <navigator url="../News/News">我的消息</navigator>
+            </view>
+            <view  class="content">
+                <navigator url="../News/News">个人信息</navigator>
+            </view>
+            <view  class="content">
+                <navigator url="../News/News">活动列表</navigator>
+            </view>
+            <view  class="content">
+                <navigator url="../News/News">积分商城</navigator>
+            </view>
+        </view>
+    </view>
+    <view bindtouchmove="tap_drag" bindtouchend="tap_end" bindtouchstart="tap_start" class="sideslip-top" style="{{translate}}">
+        <image bindtap="tap_ch" src="../../images/列表.png"></image>
+    </view>
+
+<!--首页内容-->
+    <view class = "mainbody">
+        
+    </view>
+
+</view>

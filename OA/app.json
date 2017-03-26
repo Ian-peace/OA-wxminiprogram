@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/Home/Home",
+    "pages/MessageBoard/MessageBoard",
+    "pages/About/About",
+    "pages/News/News",
+    "pages/Information/Information",
+    "pages/Acitvity/Activity",
+    "pages/Store/Store"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "OA",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#a9b7b7", 
+    "selectedColor": "#11cd6e", 
+    "borderStyle":"white", 
+    "list": [{
+      "selectedIconPath": "images/主页.png", 
+      "iconPath": "images/主页.png", 
+      "pagePath": "pages/Home/Home",
+      "text": "首页"
+    }, {
+      "selectedIconPath": "images/留言板.png", 
+      "iconPath": "images/留言板.png", 
+      "pagePath": "pages/MessageBoard/MessageBoard",
+      "text": "留言板"
+    }, {
+      "selectedIconPath":"images/关于.png",
+      "iconPath":"images/关于.png",
+      "pagePath":"pages/About/About",
+      "text":"关于"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

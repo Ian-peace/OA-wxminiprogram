@@ -1,0 +1,38 @@
+/* page/four/index.wxss */
+.sideslip{
+  height: 100%;
+  width: 750rpx;
+  position: fixed; 
+  background-color: #666;
+  z-index: 0;
+}
+
+
+.content{
+  color: #ffffff;
+  padding: 30rpx 0 30rpx 40rpx;
+}
+.sideslip-top{
+  height: 100%;
+  position: fixed;
+  width: 750rpx;
+  background-color: #ffffff;
+  z-index: 0;
+  transition: All 0.4s ease; 
+  -webkit-transition: All 0.4s ease;
+}
+.sideslip-top image{
+  position: absolute;
+  width: 68rpx;
+  height: 38rpx;
+  left: 20rpx;
+  top: 20rpx;
+}
+.c-state1{
+  transform: rotate(0deg) scale(1) translate(75%,0%); 
+  -webkit-transform: rotate(0deg) scale(1) translate(75%,0%); 
+}
+.c-state2{
+  transform: rotate(0deg) scale(.8) translate(75%,0%); 
+  -webkit-transform: rotate(0deg) scale(.8) translate(75%,0%); 
+}
