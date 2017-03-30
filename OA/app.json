@@ -5,14 +5,16 @@
     "pages/About/About",
     "pages/News/News",
     "pages/Information/Information",
-    "pages/Acitvity/Activity",
-    "pages/Store/Store"
+    "pages/Acitvity-list/Activity-list",
+    "pages/Store/Store",
+    "pages/Acitvity/Activity"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "OA",
     "navigationBarBackgroundColor": "#ffffff",
-    "backgroundColor": "#ffffff"
+    "backgroundColor": "#ffffff",
+    "enablePullDownRefresh":true
   },
   "tabBar": {
     "color": "#a9b7b7", 
